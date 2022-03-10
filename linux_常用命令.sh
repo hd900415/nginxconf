@@ -1,5 +1,7 @@
 # 次文件内容记录linux 常用的使用记录
 
+# add text file 
+
 # 获取接口的访问时间
 curl -w '\ntime_namelookup=%{time_namelookup}\ntime_connect=%{time_connect}\ntime_appconnect=%{time_appconnect}\ntime_redirect=%{time_redirect}\ntime_pretransfer=%{time_pretransfer}\ntime_starttransfer=%{time_starttransfer}\ntime_total=%{time_total}\n\n' -o /dev/null -s -L http://api.appleasp.com/api/v1/token
 # nginx 常用的安全配置
