@@ -12,7 +12,8 @@ yum -y install \
     luajit luajit-devel perl-devel \
     perl-ExtUtils-Embed \
     git \
-    lrzsz 
+    lrzsz \
+    wget 
     
 mkdir -p /data/openresty && cd /data/openresty && git clone https://github.com/TravelEngineers/ngx_http_geoip2_module
 
